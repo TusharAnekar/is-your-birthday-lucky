@@ -13,7 +13,11 @@ function luckyDOB () {
 
     if (dateOfBirth.value === "" || luckyNumber.value === "") {
         resultMessage.innerText = "Please enter both values."
-    } else {
+    }
+    else if (luckyNumber.value === 0 || luckyNumber.value < 1) {
+        resultMessage.innerText = "Please enter value greater than 0."
+    } 
+    else {
         
         const dateOfBirthNumbers = dateOfBirth.value.replaceAll("-","");
     
