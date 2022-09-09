@@ -1,10 +1,14 @@
-# is-your-birthday-lucky
- A simple app to find out if you have luck birthday
+<h1>Is Your Birthday Lucky Application</h1>
+This is a simple application which tells user if users birthday is lucky.
 
-Take user's complete birthday
-And his/her lucky number.
-Now, find out if sum of digits of birthday is divisible by the lucky number.
-Show the result to user with some graphics.
-additional
-Create this as a website, put a privacy notice. Say that you're not storing data.
-Use the footer to redirect to your social media accounts and your portfolio.
+<h1>How does the application work?</h1>
+User has to enter birthdate and lucky number. After clicking on check number button the application sums up digits of birthdate and checks if it is divisible by lucky number.
+
+<h1>Tech Stack Used:</h1>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+<img src="/images/IsYourBirthdayLucky.PNG">
